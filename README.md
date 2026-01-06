@@ -9,6 +9,12 @@ Precedingly, the robot orbits around the ball without making any contact to ensu
 
 Following each strike, a change was implemented to improve the robot’s heading by redefining the coordinate plane through scanning the two closest consecutive and perpendicular walls to realign with the table. The cycle to detect, navigate, orbit, and pocket the ball is repeated, starting with the rotation in place to scan for the missed ball. Lastly, the shutdown procedure occurs when the robot detects that there are no balls on the pool table, which then performs a celebratory spin and sound effect before exiting the program.
 
+
+## Technology Stack
+This project was developed using:
+- **C++**: The primary programming language used to code the robot's functionality.
+- **VEX IQ**: The platform used for building and controlling the robot, including motor control, sensor management, and communication.
+
 ## Mechanical Design 
 The Pool-Playing robot design builds upon a Kiwi-drive base which uses custom 3D printed components to align the Vex parts. The chassis of the robot was designed with stability as a focus. The key element of the design is the striking mechanism which allows the robot to hit a ball in front of it with consistency and power. The brain is positioned directly above the centre such that it does not affect the movement dynamics of the robot, and it is easily accessible to change batteries or start the program. 
 <div align="center">
