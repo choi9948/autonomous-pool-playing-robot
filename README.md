@@ -1,4 +1,5 @@
 # Autonomous Pool Playing Robot
+VEXIQ C++ Autonomous Pool Playing Robot
 
 ## Overview
 The robot is designed to repeatedly pocket a light-coloured pool ball on a 44 by 88-inch pool table until the ball is successfully cleared. The program begins by receiving input from the controller that identifies the robot’s initial position, which is assigned by the user at one of the four corners of the pool table. The robot, built with a three-motor drivetrain, then proceeds by navigating to the center using motor encoders along with the measured dimensions of the pool table. This center is set as the origin of the coordinate system, which serves as a reference for subsequent calculations. A successful configuration of the coordinate system is achieved when the robot is near the center of the field before rotating in place.
